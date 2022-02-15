@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 785px;
+}
+.heading {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.logo {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-right: 800px;
+    margin-left: 15px;
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+}
+ul li {
+    padding: 14px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+#home {
+    color: rgb(219, 98, 118);
+}
+#get {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px;
+}
+.main {
+    margin-top: 220px;
+    margin-left: 70px;
+}
+.main h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+#h2 {
+    margin-top: 30px;
+}
+.main h2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.main h3 {
+    border: 1px solid;
+    border-radius: 5px;
+    background: rgb(219, 98, 118);
+    padding: 7px;
+    width: 120px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+@media screen and (max-width: 900px) {
+    .container {
+        height: 900px;
+    }
+    .heading {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .main {
+        width: 80%;
+        margin-left: auto;
+    }
+    .main h1 {
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .main h2 {
+        color: white;
+        font-family: sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    h3 {
+        text-align: center;
+    }
+}
